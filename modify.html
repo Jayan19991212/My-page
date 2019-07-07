@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All examples</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        div>header{
+            width: 100%;
+            height: 10%;
+            background-color: blue;
+            position: fixed;
+        }
+        div:nth-child(2){
+            width: 15%;
+            height: 100%;
+            background-color: yellow;
+        }
+        body>div:nth-child(2){
+            background-color: aqua;
+            width: 20%;
+            height: 100%;
+            position: fixed;
+            margin: auto;
+            top: 10%;
+            left: 0;
+        }
+        body>div:nth-child(3){
+            background-color: rgba(250, 225, 123, 0.93);
+            width: 85%;
+            height: 80%;
+            position: absolute;
+            margin: auto;
+            top: 10%;
+            left: 20%;
+
+        }
+        body>div:nth-child(4){
+            background-color: #5a0000;
+            width:85%;
+            height:10%;
+            position: absolute;
+            margin: auto;
+            top: 90%;
+            left: 20%;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <header>
+        <ul>
+            <li style="display: inline">Home</li>
+            <li style="display: inline">Customer</li>
+            <li style="display: inline">Orders</li>
+            <li style="display: inline">Items</li>
+        </ul>
+    </header>
+</div>
+<div>
+    <ul>
+        <li>U N I T 1</li>
+        <li>U N I T 2</li>
+        <li>U N I T 3</li>
+        <li>U N I T 4</li>
+    </ul>
+</div>
+<div></div>
+<div></div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Front page</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        body>header{
+            background: linear-gradient(to left,red,whitesmoke);
+            top: 0;
+            left: 0;
+            right: 0;
+            position: fixed;
+            z-index: 5;
+        }
+        body>header>ul{
+            list-style: none;
+            position: relative;
+            left: 50%;
+        }
+        header>ul>li{
+            display: inline;
+            padding: 20px;
+            color: #5a0000;
+            font-size: 20px;
+            font-family: "robotto" , sans-serif;
+        }
+        body>nav{
+            background-color: red;
+            width: 20%;
+            top: 54px;
+            bottom: 0px;
+            position: fixed;
+
+        }
+        body>nav>ul{
+            list-style: none;
+            position: relative;
+            padding-inline-start: 7px;
+        }
+        body>nav>ul>li{
+            padding: 25px;
+            color: whitesmoke;
+            font-family: AHDuminda , sans-serif;
+        }
+        body>nav>ul>li:hover{
+            color: whitesmoke;
+            border-bottom: 5px whitesmoke;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        body>p{
+            position: relative;
+        }
+        body>main{
+            top: 43px;
+            left: 21%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Achievements</li>
+            <li>Merits</li>
+            <li>Life Events</li>
+            <li>Gallery</li>
+        </ul>
+    </header>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>Assignments</li>
+        <li>Curriculum Vitae</li>
+        <li>Contact Info.</li>
+    </ul>
+</nav>
+<main>
+</main>
+</body>
+</html>

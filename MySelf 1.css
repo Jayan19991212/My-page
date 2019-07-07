@@ -1,0 +1,10 @@
+/*just the external CSS*/
+p{color: blue; background-color: greenyellow;
+}
+
+p.sriLanka
+{color: red;
+    background-color: aqua;}
+ol.sriLanka
+{color: darkmagenta;
+    background-color: orangered;}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form HW</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        header{
+            background-color: #fff8ad;
+            top: 0;
+            bottom: 90%;
+            right: 0;
+            left: 0;
+            position: absolute;
+        }
+        body>header>h3{
+            left: 40%;
+            position: relative;
+        }
+        form{
+            background-color: #fff651;
+            top: 10%;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            position: absolute;
+        }
+        form>div>ul>li>input{
+            padding-right: 20px;
+            display: -webkit-box;
+            color: red;
+            text-indent: 5px;
+        }
+        form>body>div:last-child{
+        }
+    </style>
+</head>
+<body>
+<header><h3>Add your Personal Details here</h3></header>
+<form>
+<div>
+    <ul>
+        <li style="padding: 10px">Name in full <input type="text"></li>
+        <li style="padding: 10px">Date Of Birth <input type="date"></li>
+        <li style="padding: 10px">NIC No. <input type="text"></li>
+        <li style="padding: 10px">E-mail <input type="text"></li>
+    </ul>
+</div>
+<div>
+    <fieldset>
+        <legend>Educational Qualifications</legend>
+        GCE Ordinary Level Examination <input type="checkbox"><br>
+        GCE Advanced Level Examination <input type="checkbox"><br>
+        Degree Holder <input type="checkbox">
+    </fieldset>
+    <fieldset>
+        <legend>Other Qualifications</legend>
+        <textarea cols="60" rows="6"></textarea>
+    </fieldset>
+</div><br>
+<div>
+    <input type="button" value="BACK">
+    <input type="reset" value="RESET">
+    <input type="submit" value="SUBMIT">
+</div>
+</form>
+</body>
+</html>
